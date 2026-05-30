@@ -1,3 +1,4 @@
+
 # 📊 Geojit AI Financial Report Analyzer
 
 An AI-powered full-stack web application that accepts a financial document (PDF/TXT/CSV),
@@ -264,3 +265,6 @@ MIT License – for educational and professional use.
 ---
 
 *Standard Warning: Investment in securities market are subject to market risks. Read all the related documents carefully before investing.*
+=======
+# AI_DOCUMENT_ANALYZER
+>>>>>>> 8154ca1233b76d3fd5046cfa05d126330161b4ce
