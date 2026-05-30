@@ -1,5 +1,5 @@
 
-# 📊 Geojit AI Financial Report Analyzer
+#Financial Report Analyzer
 
 An AI-powered full-stack web application that accepts a financial document (PDF/TXT/CSV),
 extracts key financial metrics using OpenAI GPT-4o, generates Revenue/EBITDA/PAT charts,
