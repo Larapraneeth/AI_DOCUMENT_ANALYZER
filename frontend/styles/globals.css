@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --geojit-blue: #1B5E9B;
+  --geojit-lblue: #4A90D9;
+  --geojit-green: #1B7A3A;
+  --geojit-orange: #E8A020;
+  --geojit-bg: #F7F9FC;
+  --geojit-border: #DDE3EC;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F3F6FB;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: var(--geojit-lblue); border-radius: 3px; }
+
+/* Loading spinner */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.spinner { animation: spin 1s linear infinite; }
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.4s ease forwards; }
+
+/* Progress bar pulse */
+@keyframes progressPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+.progress-pulse { animation: progressPulse 1.5s ease infinite; }
